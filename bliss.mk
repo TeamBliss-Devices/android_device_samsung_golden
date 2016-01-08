@@ -22,8 +22,8 @@ TARGET_SCREEN_WIDTH := 480
 $(call inherit-product, device/samsung/golden/golden.mk)
 
 # Inherit some common CM stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Device specific
-PRODUCT_NAME := cm_golden
+PRODUCT_NAME := bliss_golden
 PRODUCT_PACKAGES += Torch
